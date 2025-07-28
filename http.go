@@ -9,9 +9,9 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/golang/protobuf/proto"
 	"github.com/wendellwf/geecache/consistenthash"
 	pb "github.com/wendellwf/geecache/geecachepb"
-	"google.golang.org/protobuf/proto"
 )
 
 const (
